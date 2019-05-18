@@ -1,7 +1,4 @@
-# Python
-
-####[Classroom](https://classroom.github.com/a/f6W1QBDC)
-
+# [Python Classroom](https://classroom.github.com/a/f6W1QBDC)
 
 ### [1. Basic Concepts](https://github.com/taller-programacion/Python/tree/master/basics)
 ### [2. Control structures](https://github.com/taller-programacion/Python/tree/master/data_structures)
