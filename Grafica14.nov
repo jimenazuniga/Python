@@ -1,0 +1,11 @@
+import matplotlib.pyplot as var
+# %matplotlib_inline #para jupyter notebook
+#Grafica 2 vectores
+var.plot(["C", "Dirección", "Prgra", "Costos", "D.S."],[9,8,5,7,10],'b-*') #Vector en Y
+#Grafica por defecto el vecto X = 1, 2, 3, 4
+var.axis ([1,2,2,5,11])
+var.title('Promedio')
+var.ylabel('Calificación')
+var.xlabel('Materia')
+var.show()
+var.savingfig("graph.png")
