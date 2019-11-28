@@ -1,0 +1,18 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+data= [[8,5,2,3], [9,6,3,2],[7,4,1,2],[9,5,1,4]]
+axisX= np.arange(4)
+print(axisX+3)
+country = ("Alemania", "España", "Francia", "Portugal")
+position_y = np.arange(len(country))
+population = (10, 15, 16, 10)
+
+plt.barh(position_y, population, align = "center")
+
+plt.yticks(position_y, country)
+plt.xlabel('Población (millones)')
+plt.title("Población por país")
+
+plt.savefig("graph.png")
+plt.show()
