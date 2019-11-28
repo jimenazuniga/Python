@@ -1,0 +1,30 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+def f(t): 
+    return np.exp(-t) * np.cos(3*np.pi*t)
+
+t1 = np.arange(0.0, 5.0, 0.1)
+t2 = np.arange(0.0, 5.0, 0.02)
+t3 = np.arange(0.5, 3.0, 3.0)
+
+
+# Primera figura
+plt.figure(1)
+
+# Primera gráfica
+plt.subplot(321)
+plt.plot(t1, f(t1), 'h', t2, f(t2), 'k')
+
+
+# Segunda gráfica
+plt.subplot(322)
+plt.plot(t2, np.cos(2*np.pi*t2), 's')
+
+
+# Tercera gráfica
+plt.subplot(313)
+plt.plot(t3, f(t3), 'p', t4, f(t4),'s' )
+
+plt.show()
